@@ -80,7 +80,7 @@ svg{stroke-width:1.5}
 .appearance-option:disabled{opacity:.3;cursor:wait}
 .paint-chip{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;box-shadow:inset 0 0 0 1px #ffffff20}
 .appearance-menu.wheels .appearance-option{width:78px;height:70px;border-radius:var(--radius-control)}
-.wheel-chip{display:block;width:64px;height:58px;border-radius:4px;background-size:530% auto;background-position:48% 79%;background-repeat:no-repeat}
+.wheel-chip{display:block;width:64px;height:58px;border-radius:4px;background-size:530% auto;background-position:40.5% 78.3%;background-repeat:no-repeat}
 .appearance-caption{margin-top:9px;font-size:14px;line-height:1.4;color:var(--ink)}
 .appearance-caption small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
 @keyframes menu-in{from{opacity:0;translate:0 5px}to{opacity:1;translate:0 0}}
@@ -176,5 +176,6 @@ svg{stroke-width:1.5}
 
 /* Ambient layer: sits behind every scene element and never receives input. */
 .living-background{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
-.stage,.scene-footer{position:relative;z-index:1}
+.stage{position:relative;z-index:2}
+.scene-footer{position:relative;z-index:1}
 .masthead{position:relative}

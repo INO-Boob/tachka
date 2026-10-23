@@ -1,0 +1,675 @@
+{
+ "scale": 1,
+ "samples": 48,
+ "plate": "plate.png",
+ "cameras": {
+  "overview": {
+   "target": [
+    0,
+    -0.1,
+    -0.25
+   ],
+   "azimuth": 38,
+   "elevation": 9,
+   "distance": 20,
+   "lens": 78,
+   "shift_y": 0.03
+  },
+  "drive": {
+   "target": [
+    0.1,
+    -2.3,
+    -0.2
+   ],
+   "azimuth": 34,
+   "elevation": 36,
+   "distance": 6.6,
+   "lens": 50,
+   "shift_x": 0.17
+  },
+  "battery": {
+   "target": [
+    0.1,
+    0.1,
+    -0.55
+   ],
+   "azimuth": 22,
+   "elevation": 30,
+   "distance": 12.5,
+   "lens": 50,
+   "shift_x": 0.19
+  }
+ },
+ "points": {
+  "hs_drive": [
+   0,
+   -2.55,
+   0.22
+  ],
+  "hs_battery": [
+   1.5,
+   0.35,
+   -0.62
+  ],
+  "hs_paint": [
+   1.52,
+   -0.2,
+   0.1
+  ],
+  "hs_wheels": [
+   1.62,
+   -2.16,
+   -0.51
+  ],
+  "stator": [
+   0.15,
+   -2.2649999999999997,
+   0.04
+  ],
+  "rotor": [
+   0.565,
+   -2.2649999999999997,
+   -0.22
+  ],
+  "gear": [
+   -0.42,
+   -2.335,
+   -0.04
+  ],
+  "cells": [
+   0.0,
+   0.35,
+   -0.5
+  ],
+  "hv": [
+   1.2,
+   -0.6,
+   -0.58
+  ],
+  "enclosure": [
+   0.4,
+   1.7,
+   -0.66
+  ]
+ },
+ "report": "final/points.json",
+ "jobs": [
+  {
+   "out": "final/neutral.png",
+   "cam": "overview"
+  },
+  {
+   "out": "final/paint-electric.png",
+   "cam": "overview",
+   "paint": "electric"
+  },
+  {
+   "out": "final/paint-lime.png",
+   "cam": "overview",
+   "paint": "lime"
+  },
+  {
+   "out": "final/paint-sky.png",
+   "cam": "overview",
+   "paint": "sky"
+  },
+  {
+   "out": "final/paint-graphite.png",
+   "cam": "overview",
+   "paint": "graphite"
+  },
+  {
+   "out": "final/wheels-aero.png",
+   "cam": "overview",
+   "wheels": "aero"
+  },
+  {
+   "out": "final/wheels-forged.png",
+   "cam": "overview",
+   "wheels": "forged"
+  },
+  {
+   "out": "final/xray.png",
+   "cam": "overview",
+   "xray": 1
+  },
+  {
+   "out": "final/drive-detail.png",
+   "cam": "drive",
+   "lid": 1
+  },
+  {
+   "out": "final/battery-detail.png",
+   "cam": "battery",
+   "xray": 1
+  },
+  {
+   "out": "final/hood/000.png",
+   "cam": "overview",
+   "lid": 0.0,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/001.png",
+   "cam": "overview",
+   "lid": 3.852710863681458e-05,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/002.png",
+   "cam": "overview",
+   "lid": 0.0003082168690945166,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/003.png",
+   "cam": "overview",
+   "lid": 0.0010402319331939934,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/004.png",
+   "cam": "overview",
+   "lid": 0.002465734952756133,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/005.png",
+   "cam": "overview",
+   "lid": 0.004815888579601822,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/006.png",
+   "cam": "overview",
+   "lid": 0.008321855465551947,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/007.png",
+   "cam": "overview",
+   "lid": 0.013214798262427399,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/008.png",
+   "cam": "overview",
+   "lid": 0.019725879622049063,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/009.png",
+   "cam": "overview",
+   "lid": 0.02808626219623783,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/010.png",
+   "cam": "overview",
+   "lid": 0.03852710863681458,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/011.png",
+   "cam": "overview",
+   "lid": 0.051279581595600206,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/012.png",
+   "cam": "overview",
+   "lid": 0.06657484372441558,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/013.png",
+   "cam": "overview",
+   "lid": 0.08464405767508164,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/014.png",
+   "cam": "overview",
+   "lid": 0.10571838609941919,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/015.png",
+   "cam": "overview",
+   "lid": 0.13002899164924922,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/016.png",
+   "cam": "overview",
+   "lid": 0.1578070369763925,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/017.png",
+   "cam": "overview",
+   "lid": 0.18928368473267007,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/018.png",
+   "cam": "overview",
+   "lid": 0.22469009756990263,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/019.png",
+   "cam": "overview",
+   "lid": 0.26425743813991115,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/020.png",
+   "cam": "overview",
+   "lid": 0.3082168690945166,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/021.png",
+   "cam": "overview",
+   "lid": 0.3567995530855398,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/022.png",
+   "cam": "overview",
+   "lid": 0.41023665276480165,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/023.png",
+   "cam": "overview",
+   "lid": 0.4687593307841229,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/024.png",
+   "cam": "overview",
+   "lid": 0.5312406692158769,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/025.png",
+   "cam": "overview",
+   "lid": 0.5897633472351984,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/026.png",
+   "cam": "overview",
+   "lid": 0.6432004469144602,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/027.png",
+   "cam": "overview",
+   "lid": 0.6917831309054835,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/028.png",
+   "cam": "overview",
+   "lid": 0.7357425618600888,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/029.png",
+   "cam": "overview",
+   "lid": 0.7753099024300973,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/030.png",
+   "cam": "overview",
+   "lid": 0.81071631526733,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/031.png",
+   "cam": "overview",
+   "lid": 0.8421929630236074,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/032.png",
+   "cam": "overview",
+   "lid": 0.8699710083507508,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/033.png",
+   "cam": "overview",
+   "lid": 0.8942816139005808,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/034.png",
+   "cam": "overview",
+   "lid": 0.9153559423249185,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/035.png",
+   "cam": "overview",
+   "lid": 0.9334251562755844,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/036.png",
+   "cam": "overview",
+   "lid": 0.9487204184043998,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/037.png",
+   "cam": "overview",
+   "lid": 0.9614728913631855,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/038.png",
+   "cam": "overview",
+   "lid": 0.9719137378037621,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/039.png",
+   "cam": "overview",
+   "lid": 0.9802741203779509,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/040.png",
+   "cam": "overview",
+   "lid": 0.9867852017375726,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/041.png",
+   "cam": "overview",
+   "lid": 0.991678144534448,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/042.png",
+   "cam": "overview",
+   "lid": 0.9951841114203982,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/043.png",
+   "cam": "overview",
+   "lid": 0.9975342650472439,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/044.png",
+   "cam": "overview",
+   "lid": 0.998959768066806,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/045.png",
+   "cam": "overview",
+   "lid": 0.9996917831309055,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/046.png",
+   "cam": "overview",
+   "lid": 0.9999614728913632,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  },
+  {
+   "out": "final/hood/047.png",
+   "cam": "overview",
+   "lid": 1.0,
+   "border": [
+    0.04,
+    0.24,
+    0.64,
+    1.0
+   ]
+  }
+ ]
+}

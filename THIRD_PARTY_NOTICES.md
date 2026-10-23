@@ -2,8 +2,9 @@
 
 - Concept, art direction, interaction design and After Effects finishing: Amir Mušić.
 - Website implementation: developed with coding-agent assistance; application code published under MIT.
-- Bundled concept stills and appearance variants: AI-generated imagery produced during this project with OpenAI image generation/editing.
-- The four bundled hover films: Kling 3.0 image-to-video via Pika, followed by Amir's After Effects time remapping and forward/reverse exports. The original generation prompts and final exports are different artifacts; regenerating a prompt will not reproduce these exact files.
+- **This fork (911 edition):** every image and video in `public/media` that the page uses was re-rendered in Blender (Cycles) from the free 3D model "Free Porsche 911 Carrera 4S" downloaded from Sketchfab (file dated 2020-11-24). Keep the model author's credit and check the license on its Sketchfab page before publishing or redistributing these renders. The Porsche crest was removed and the number plates replaced with VEYRA plates. The studio, materials, electric drive unit, battery pack, aero covers, X-ray scan and hood motion were built by the render scripts in `tools/render-911/`. Porsche and 911 are trademarks of Dr. Ing. h.c. F. Porsche AG; this independent concept is not affiliated with or endorsed by Porsche.
+- Original v1.0.0 concept stills and appearance variants (replaced in this fork, still in Git history): AI-generated imagery produced with OpenAI image generation/editing.
+- Original v1.0.0 hover films (replaced in this fork, still in Git history): Kling 3.0 image-to-video via Pika, followed by Amir's After Effects time remapping and forward/reverse exports.
 - LTX API examples: optional workflows for future assets, not provenance claims about the bundled films. No LTX, Kling or Pika model weights or SDK code are redistributed.
 
 The author offers the bundled concept images, video exports and project screenshots under the MIT license to the extent of the author's rights in them. This grants no rights to third-party trademarks or likenesses and makes no claim of exclusive ownership of AI-generated material. No provider endorsement is implied.
