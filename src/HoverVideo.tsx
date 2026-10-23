@@ -3,8 +3,8 @@ import { useEffect, useRef } from 'react'
 type Preview = 'drive' | 'battery'
 type Mode = 'overview' | 'entering' | 'detail' | 'returning'
 const sources: Record<Preview, [string, string]> = {
-  drive: ['/media/hood-hover-forward.mp4', '/media/hood-hover-reverse.mp4'],
-  battery: ['/media/battery-hover-forward.mp4', '/media/battery-hover-reverse.mp4'],
+  drive: ['media/hood-hover-forward.mp4', 'media/hood-hover-reverse.mp4'],
+  battery: ['media/battery-hover-forward.mp4', 'media/battery-hover-reverse.mp4'],
 }
 
 // Complete each short clip before changing direction. The supplied reverse clips

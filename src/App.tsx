@@ -7,7 +7,7 @@ import LivingBackground from './LivingBackground'
 import { appearanceOptions, baseExterior, canUseHotspot, type AppearanceMode } from './appearance'
 
 type Phase = 'overview' | 'entering' | 'detail' | 'returning'
-const ROOT_IMAGE = '/media/exterior-polished.png'
+const ROOT_IMAGE = 'media/exterior-polished.png'
 
 export default function App() {
   const [phase, setPhase] = useState<Phase>('overview')
@@ -159,7 +159,7 @@ export default function App() {
   return <main className={`experience phase-${phase} ${reduced ? 'reduced' : ''}`} style={{ '--scene-width': typeof plane.width === 'number' ? `${plane.width}px` : undefined, '--scene-height': typeof plane.height === 'number' ? `${plane.height}px` : undefined } as CSSProperties} aria-busy={busy}>
     <LivingBackground reduced={reduced}/>
     <header className="masthead">
-      <a className="wordmark" href="/" aria-label="Return to overview">VEYRA</a>
+      <a className="wordmark" href="./" aria-label="Return to overview">VEYRA</a>
       <span className="header-middle">Electric vehicle design</span>
       <span className="concept-label">Independent concept</span>
     </header>
