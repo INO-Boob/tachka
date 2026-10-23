@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowUpRight, Plus, X } from 'lucide-react'
 import { systems, hotspots, type HotspotId, type SystemId } from './content'
 import HoverVideo from './HoverVideo'
 import AppearanceMenu from './AppearanceMenu'
+import LivingBackground from './LivingBackground'
 import { appearanceOptions, baseExterior, canUseHotspot, type AppearanceMode } from './appearance'
 
 type Phase = 'overview' | 'entering' | 'detail' | 'returning'
@@ -156,6 +157,7 @@ export default function App() {
   })
 
   return <main className={`experience phase-${phase} ${reduced ? 'reduced' : ''}`} style={{ '--scene-width': typeof plane.width === 'number' ? `${plane.width}px` : undefined, '--scene-height': typeof plane.height === 'number' ? `${plane.height}px` : undefined } as CSSProperties} aria-busy={busy}>
+    <LivingBackground reduced={reduced}/>
     <header className="masthead">
       <a className="wordmark" href="/" aria-label="Return to overview">VEYRA</a>
       <span className="header-middle">Electric vehicle design</span>
