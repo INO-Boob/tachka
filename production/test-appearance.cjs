@@ -34,6 +34,7 @@ const App = compile('src/App.tsx', name => {
   if (name === './content') return content
   if (name === './HoverVideo') return { default: 'HoverVideo' }
   if (name === './AppearanceMenu') return { default: 'AppearanceMenu' }
+  if (name === './LivingBackground') return { default: 'LivingBackground' }
   throw Error(name)
 }).default
 function render() { stateIndex = refIndex = 0; effects.length = 0; tree = App(); return tree }
